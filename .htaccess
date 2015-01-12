@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /clients/robadamscd/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]*)/?(.*)$ index.php?p=$1
+
+#RewriteCond pages/%{REQUEST_FILENAME}.php -f
+#RewriteRule !.*$ index.php?p=%{REQUEST_FILENAME} [L]

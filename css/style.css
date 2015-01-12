@@ -1,0 +1,247 @@
+body {
+	font-family: "Ek Mukta", "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+h1 {
+	color: #FF6633;
+}
+
+.gutter-vert {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+	
+.row.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.row.no-gutters [class^="col-"],
+.row.no-gutters [class*=" col-"]{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+[class^="col-"].no-gutters,
+[class*=" col-"].no-gutters {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+.no-margin-bottom {
+	margin-bottom:0px !important; 
+}
+
+.vtop {
+	display: inline-block;
+	vertical-align: top;
+	float: none;
+}
+
+.vcenter {
+	display: inline-block;
+	vertical-align: middle;
+	float: none;
+}
+
+
+
+
+
+.brand {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.navbar {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.navbar a {
+	font-size: 1.1em;
+	line-height: 1.1em;
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+	line-height: 0px;
+}
+
+.stage {
+	background-color: #FF6633;
+	color: #fff;
+	margin-bottom: 30px;
+	font-size: 0px;
+}
+
+.stage h1 {
+	margin: 20px;
+	color: #fff;
+}
+
+p {
+	font-size: 1.15em;
+	color: #777;
+}
+
+.highlight-quote {
+	color: #09F;
+}
+
+a.circle-button {
+	font-size: 20px;
+	color: #337AB7;
+	vertical-align: bottom;
+	display: inline-block;
+	padding: 6px;
+}
+
+a.circle-button:hover {
+	padding: 5px;
+	text-decoration: none;
+	border: 1px solid #337AB7;
+	border-radius: 4px;
+}
+
+
+a.brand-link {
+	display: block;
+	transition: .1s;
+	margin: 5px;
+}
+
+a.brand-link:hover {
+	text-decoration: none;
+	transition: .1s;
+	margin: -5px;
+}
+
+a.brand-link h3 {
+	color: #555;
+}
+
+a.brand-link:hover h3 {
+	color: #337AB7;
+}
+
+.brand-block {
+	margin-bottom: 15px;
+}
+
+.pillar {
+	padding: 15px 25px;
+}
+
+.pillar-header {
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	padding: 4px;
+	margin-bottom: 15px;
+	border-radius: 10px;
+}
+#pillar-brand .pillar-header {
+	background-color: #B4DAFC;
+	color: #7490B5;
+}
+#pillar-creative .pillar-header {
+	background-color: #F1CDFE;
+	color: #9D83AB;
+}
+#pillar-leadership .pillar-header {
+	background-color: #F9D4AC;
+	color: #A68567;
+}
+#pillar-resource .pillar-header {
+	background-color: #C0E5B1;
+	color: #659468;
+}
+
+.pillar ul {
+	margin: 0px;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.pillar li {
+	font-size: 1.1em;
+	color: #777;
+}
+
+
+.cause {
+	padding: 15px 25px;
+}
+
+.cause-link img {
+	border-radius: 15px;
+}
+
+a.cause-link {
+	display: block;
+	transition: .1s;
+	margin: 5px;
+}
+
+a.cause-link:hover {
+	text-decoration: none;
+	transition: .1s;
+	margin: -5px;
+}
+
+a.cause-link h3 {
+	color: #555;
+}
+
+a.cause-link:hover h3 {
+	color: #337AB7;
+}
+
+
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+.stage h1 {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	
+	.stage h1 {
+		font-size: 23px;
+		line-height: 28px;
+	}
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	
+	.stage h1 {
+		font-size: 31px;
+		line-height: 38px;
+	}
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+	.stage h1 {
+		font-size: 36px;
+		line-height: 42px;
+	}
+	
+}
