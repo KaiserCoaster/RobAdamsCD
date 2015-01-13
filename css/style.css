@@ -6,6 +6,17 @@ h1 {
 	color: #FF6633;
 }
 
+p {
+	font-size: 1.15em;
+	color: #777;
+}
+
+li {
+	font-size: 1.15em;
+	color: #777;
+	list-style-type: circle;
+}
+
 .gutter-vert {
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -43,6 +54,14 @@ h1 {
 	display: inline-block;
 	vertical-align: middle;
 	float: none;
+}
+
+.breadcrumb {
+	display: inline-block;
+}
+
+.breadcrumb .active a {
+	color: #ccc;
 }
 
 
@@ -84,11 +103,6 @@ h1 {
 .stage h1 {
 	margin: 20px;
 	color: #fff;
-}
-
-p {
-	font-size: 1.15em;
-	color: #777;
 }
 
 .highlight-quote {
@@ -204,6 +218,26 @@ a.cause-link:hover h3 {
 	color: #337AB7;
 }
 
+
+.contact-link {
+	font-size: 30px;
+	color: #fff;
+	background-color: #F46231;
+	padding: 4px 14px 1px;
+	border-radius: 8px;
+	margin-bottom: 5px;
+}
+
+.contact-link:hover {
+	text-decoration: none;
+	background-color: #EC5A2A;
+	color: #fff;
+}
+
+.contact-link i {
+	font-size: 45px;
+	vertical-align: middle;
+}
 
 
 

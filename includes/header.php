@@ -16,12 +16,15 @@ $home = "/clients/robadamscd/";
     
     <!-- Google Font Ek Mukta -->
     <link href='https://fonts.googleapis.com/css?family=Ek+Mukta' rel='stylesheet' type='text/css'>
+    
+    <!-- Foundation Icon set -->
+    <link href="<?=$home?>css/foundation-icons.css" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap core CSS -->
-    <link href="<?=$home?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=$home?>css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="<?=$home?>css/style.css" rel="stylesheet">
+    <link href="<?=$home?>css/style.css" rel="stylesheet" type="text/css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

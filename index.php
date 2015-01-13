@@ -1,6 +1,6 @@
 <?php
 	
-$page = $_GET['p'];
+$page = rtrim(strtolower($_GET['p']), '/');
 $url = "404.php";
 $navActive = [	'home' => false,
 				'brand-at-work' => false,
@@ -19,6 +19,13 @@ switch($page) {
 	case "contact":
 		$url = $page . ".php";
 		$navActive[$page] = true;
+		break;
+	case "brands/ets":
+	case "brands/spirits":
+	case "brands/att":
+	case "brands/maxim":
+		$url = $page . ".php";
+		$navActive['brand-at-work'] = true;
 		break;
 }
 	
