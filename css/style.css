@@ -1,9 +1,14 @@
 body {
-	font-family: "Ek Mukta", "Helvetica Neue",Helvetica,Arial,sans-serif
+	font-family: "Ek Mukta", "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #777;
 }
 
 h1 {
 	color: #FF6633;
+}
+
+h3 {
+	color: #555;
 }
 
 p {
@@ -11,10 +16,23 @@ p {
 	color: #777;
 }
 
+small {
+	color: #888;
+	font-style: italic;
+}
+
 li {
 	font-size: 1.15em;
 	color: #777;
 	list-style-type: circle;
+}
+
+a.thumbnail {
+	text-decoration: none;
+}
+
+.thumbnail .caption {
+	color: #777;
 }
 
 .gutter-vert {
@@ -145,8 +163,22 @@ a.brand-link:hover h3 {
 	color: #337AB7;
 }
 
+a.brand-link img {
+	border-radius: 15px;
+}
+
 .brand-block {
 	margin-bottom: 15px;
+}
+
+.client {
+	margin: 15px 0px;
+}
+
+.client img {
+	max-height: 80px;
+	margin-top: 5px;
+	margin-bottom: 10px;
 }
 
 .pillar {
@@ -216,6 +248,15 @@ a.cause-link h3 {
 
 a.cause-link:hover h3 {
 	color: #337AB7;
+}
+
+.cause-img {
+	border-radius: 15px;
+	margin-bottom: 30px;
+}
+
+.cause-info h3 {
+	margin-top: 0px;
 }
 
 

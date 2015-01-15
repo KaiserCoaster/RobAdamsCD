@@ -1,7 +1,3 @@
-<?php
-$home = "/clients/robadamscd/";
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

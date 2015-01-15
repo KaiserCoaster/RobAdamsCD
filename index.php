@@ -1,5 +1,7 @@
 <?php
 	
+$home = "/clients/robadamscd/";
+	
 $page = rtrim(strtolower($_GET['p']), '/');
 $url = "404.php";
 $navActive = [	'home' => false,
@@ -26,6 +28,12 @@ switch($page) {
 	case "brands/maxim":
 		$url = $page . ".php";
 		$navActive['brand-at-work'] = true;
+		break;
+	case "causes/msride":
+	case "causes/sayrevillemarchingband":
+	case "causes/tealtea":
+		$url = $page . ".php";
+		$navActive['cause'] = true;
 		break;
 }
 	
