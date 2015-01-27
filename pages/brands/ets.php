@@ -16,4 +16,52 @@
 		include('includes/brands.php'); 
 		?>
 	</div>
+	<div class="col-sm-4">
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="#" class="thumbnail" data-toggle="modal" data-target="#oldBrand">
+					<img data-src="holder.js/300x300" src="<?=$home?>images/brand-ETS-old-thumb.jpg" alt="...">
+					<div class="caption text-center">
+						Old logo and brand image
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<a href="#" class="thumbnail" data-toggle="modal" data-target="#newBrand">
+					<img data-src="holder.js/300x300" src="<?=$home?>images/brand-ETS-new-thumb.jpg" alt="...">
+					<div class="caption text-center">
+						New logo and brand image
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="modal fade" id="oldBrand" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Old logo and brand image</h4>
+					</div>
+					<div class="modal-body">
+						<img src="<?=$home?>images/brand-ETS-old.jpg" class="img-responsive center-block" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="newBrand" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">New logo and brand image</h4>
+					</div>
+					<div class="modal-body">
+						<img src="<?=$home?>images/brand-ETS-new.jpg" class="img-responsive center-block" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

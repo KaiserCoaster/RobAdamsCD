@@ -37,7 +37,7 @@
 				<div class="col-xs-10 col-xs-offset-1 col-sm-2 col-sm-offset-5 brand">
 					<a href="<?=$home?>">
 						<img src="<?=$home?>images/LogoHoriz.svg" class="img-responsive visible-xs" />
-						<img src="<?=$home?>images/LogoVert.svg" class="img-responsive hidden-xs" />
+						<img src="<?=$home?>images/LogoVert.svg" class="img-responsive hidden-xs vert-logo center-block" />
 					</a>
 				</div>
 			</div>

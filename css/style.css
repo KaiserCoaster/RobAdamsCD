@@ -179,10 +179,20 @@ a.brand-link img {
 	max-height: 80px;
 	margin-top: 5px;
 	margin-bottom: 10px;
+	padding: 5px;
+	transition: .1s;
+}
+
+.client img:hover {
+	padding: 0px;
 }
 
 .pillar {
 	padding: 15px 25px;
+}
+
+.pillar a {
+	text-decoration: none;
 }
 
 .pillar-header {
@@ -193,6 +203,15 @@ a.brand-link img {
 	margin-bottom: 15px;
 	border-radius: 10px;
 }
+
+.pillar-collapse {
+	display: none;
+}
+
+.pillar-expand {
+	margin-bottom: 15px;
+}
+
 #pillar-brand .pillar-header {
 	background-color: #B4DAFC;
 	color: #7490B5;
@@ -261,10 +280,8 @@ a.cause-link:hover h3 {
 
 
 .contact-link {
-	font-size: 30px;
 	color: #fff;
 	background-color: #F46231;
-	padding: 4px 14px 1px;
 	border-radius: 8px;
 	margin-bottom: 5px;
 }
@@ -273,11 +290,6 @@ a.cause-link:hover h3 {
 	text-decoration: none;
 	background-color: #EC5A2A;
 	color: #fff;
-}
-
-.contact-link i {
-	font-size: 45px;
-	vertical-align: middle;
 }
 
 
@@ -291,12 +303,39 @@ a.cause-link:hover h3 {
 	line-height: 30px;
 }
 
+.contact-link {
+	font-size: 30px;
+	padding: 4px 14px 1px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+}
+
+.contact-link i {
+	font-size: 45px;
+	vertical-align: middle;
+}
+
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 	
 	.stage h1 {
 		font-size: 23px;
 		line-height: 28px;
+	}
+	
+	.vert-logo {
+		width: 100%;
+	}
+	
+	.contact-link {
+		font-size: 22px;
+		padding: 5px 14px 3px;
+		margin-bottom: 5px;
+	}
+	
+	.contact-link i {
+		font-size: 35px;
 	}
 	
 }
@@ -309,6 +348,20 @@ a.cause-link:hover h3 {
 		line-height: 38px;
 	}
 	
+	.vert-logo {
+		width: 85%;
+	}
+	
+	.contact-link {
+		font-size: 25px;
+		padding: 7px 14px 3px;
+		margin-bottom: 5px;
+	}
+	
+	.contact-link i {
+		font-size: 40px;
+	}
+	
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -317,6 +370,20 @@ a.cause-link:hover h3 {
 	.stage h1 {
 		font-size: 36px;
 		line-height: 42px;
+	}
+	
+	.vert-logo {
+		width: 70%;
+	}
+	
+	.contact-link {
+		font-size: 30px;
+		padding: 4px 14px 1px;
+		margin-bottom: 5px;
+	}
+	
+	.contact-link i {
+		font-size: 45px;
 	}
 	
 }

@@ -12,7 +12,7 @@
 		
 		<div class="row">
 			<div class="col-xs-6 col-sm-6 col-md-4">
-				<a class="thumbnail" data-toggle="modal" data-target="#myModal">
+				<a href="#" class="thumbnail" data-toggle="modal" data-target="#myModal">
 					<img data-src="holder.js/300x300" src="<?=$home?>images/cause-page-teal-thumb.jpg" alt="...">
 					<div class="caption">
 						Photo of my team at work. I kept this in my hospital room as inspiration to return.
@@ -26,7 +26,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Teal Tea Foundation</h4>
+						<h4 class="modal-title" id="myModalLabel">&nbsp;</h4>
 					</div>
 					<div class="modal-body">
 						<img src="<?=$home?>images/cause-page-teal.jpg" class="img-responsive center-block" />

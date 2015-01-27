@@ -15,6 +15,6 @@
 </div>
 <div class="row gutter-vert">
 	<div class="col-md-8 col-md-offset-4 text-center">
-		<a href="#" target="_blank" class="circle-button"><img src="<?=$home?>images/circle.svg" style="height:30px"> R&Eacute;SUM&Eacute;</a>
+		<a href="<?=$home?>assets/RobAdamsResume1214.pdf" target="_blank" class="circle-button"><img src="<?=$home?>images/circle.svg" style="height:30px; width:30px;"> R&Eacute;SUM&Eacute;</a>
 	</div>
 </div>

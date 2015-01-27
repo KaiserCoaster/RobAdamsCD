@@ -4,11 +4,14 @@
 			Here’s How I’ve Built Mine.</h1>
 	</div>
 </div>
-<div class="row">
+<div class="row" id="pillar-holder">
 	
 	<div class="col-sm-6 col-md-3 pillar" id="pillar-brand">
-		<div class="pillar-header">Brand Elevation</div>
-		<ul>
+		<a href=".pillarOne">
+			<div class="pillar-header">Brand Elevation</div>
+			<div class="text-center pillarOne pillar-expand">Click to expand..</div>
+		</a>
+		<ul class="pillar-collapse pillarOne">
 			<li>Launched new ETS products Revised GRE, HiSET, and TOEFL Junior.</li>
 			<li>Trained international reps on the new ETS Brand.</li>
 			<li>Conducted brand reviews on all work executed by the In-house team and external agencies.</li>
@@ -19,8 +22,11 @@
 	</div>
 	
 	<div class="col-sm-6 col-md-3 pillar" id="pillar-creative">
-		<div class="pillar-header">Creative Excellence</div>
-		<ul>
+		<a href=".pillarTwo">
+			<div class="pillar-header">Creative Excellence</div>
+			<div class="text-center pillarTwo pillar-expand">Click to expand..</div>
+		</a>
+		<ul class="pillar-collapse pillarTwo">
 			<li>With my own creative solutions and that of teams I’ve directed, have garnered 100’s of awards.</li>
 			<li>Worked with my management team on process revisions that resulted in zero published errors year after year.</li>
 			<li>Owned and managed a creative services business.</li>
@@ -33,8 +39,11 @@
 	<div class="clearfix visible-sm-block"></div>
 	
 	<div class="col-sm-6 col-md-3 pillar" id="pillar-leadership">
-		<div class="pillar-header">Thought Leadership</div>
-		<ul>
+		<a href=".pillarThree">
+			<div class="pillar-header">Thought Leadership</div>
+			<div class="text-center pillarThree pillar-expand">Click to expand..</div>
+		</a>
+		<ul class="pillar-collapse pillarThree">
 			<li>Developed a vision for ETS Endorsement Branding. Strategized how ETS could engage Endorsement Branding relationships.</li>
 			<li>Helped define ETS’s RFP response mechanism, setting the standard of quality for templates to be used throughout ETS.</li>
 			<li>Brainstormed strategy and tactics for the GRE Business School Attack Plan - resulting in 1,000 business schools now accepting GRE scores.</li>
@@ -44,13 +53,21 @@
 	</div>
 	
 	<div class="col-sm-6 col-md-3 pillar" id="pillar-resource">
-		<div class="pillar-header">Resource Management</div>
-		<ul>
+		<a href=".pillarFour">
+			<div class="pillar-header">Resource Management</div>
+			<div class="text-center pillarFour pillar-expand">Click to expand..</div>
+		</a>
+		<ul class="pillar-collapse pillarFour">
 			<li>Directed a group as large as thirty-five designers, editorial staff and project planners.</li>
 			<li>Oversaw a budget of $4MM, ending the fiscal year under budget within a margin of less than 5%.</li>
 			<li>Annually set department objectives, conducted staff reviews and established development plans.</li>
 			<li>Led the search for additional mid-sized, cost-effective agencies to be used as needed.</li>
 		</ul>
 		<p class="highlight-quote">“He understands the value of the creative process, inspires and empowers his designers and writers to achieve their best work, and does a great job working with his clients to ensure their objectives are being met.”</p>
+	</div>
+</div>
+<div class="row gutter-vert">
+	<div class="text-center">
+		<a href="https://www.linkedin.com/in/robadamscd" target="_blank" class="circle-button"><img src="<?=$home?>images/circle.svg" style="height:30px; width:30px;"> See more recommendations at my LinkedIn site</a>
 	</div>
 </div>
