@@ -1,6 +1,6 @@
 <?php
 	
-$home = "/clients/robadamscd/";
+$home = "/";
 	
 $page = rtrim(strtolower($_GET['p']), '/');
 $url = "404.php";
